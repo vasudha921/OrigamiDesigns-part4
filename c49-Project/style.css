@@ -1,0 +1,83 @@
+                        h1 {
+                            color:rgb(168, 15, 182);
+                            font-style:italic;
+                            margin-left: 20px;                            
+                        }
+                        
+                        /*.header *{
+                           border: solid;
+                        }*/
+                     
+                        .header{
+                       background-color:aqua;
+                       display : flex;
+                       justify-content: space-between ;
+                       font-style: italic;
+                       font-size: 17px;
+                   }
+
+                   .grid{  
+                       background-color:aqua;
+                       display : flex;
+                       flex-wrap: wrap;
+                       justify-content: space-evenly;
+                       font-style: italic;
+                       font-size: 40px;
+                       color:#FF8300;
+                   }
+                   
+                    .item{
+                        
+                        display: flex;
+                        justify-content: flex-end;
+                        font-style: italic;
+                        position:relative;
+                    }
+
+                    
+                    p,h1,h2{
+                        
+                        text-align: center;
+                        font-style: italic;
+                    }
+
+                    .item p{
+                        position:absolute ;
+                        top:50%;
+                        left:50%;
+                        transform:translate(-50%,-50%);
+                        opacity:0;
+                    }
+                    .item:hover p{
+                        opacity: 1;
+
+                    }
+                    .item:hover img{
+                        opacity:0.33;
+                    }
+                   
+                    body{
+                     background-color:turquoise;
+                     margin:0px;
+                     font-style:italic;
+
+                    }
+
+                    a:link{
+                        color:plum;
+                        
+                    }
+                    
+                    a:visited{
+                        color: orange;
+
+                    }
+
+                    a{
+                        margin-top:10px;
+                        margin-bottom: 50px;
+                        margin-right: 10px;
+                    }
+
+                    
+                    
